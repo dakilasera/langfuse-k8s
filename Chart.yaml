@@ -1,0 +1,15 @@
+apiVersion: v2
+name: jedox-llm-observability
+version: 0.0.1
+appVersion: 0.0.1
+description: Jedox LLM observability platfrom for LLM observability, metrics (latency, cost) and evaluations.
+type: application
+home: https://www.jedox.com/
+maintainers:
+  - name: tbd
+    email: tbd
+dependencies:
+  - name: langfuse
+    version: 1.2.11
+    repository: file://charts/langfuse
+icon: https://cdn.jedox.com/wp-content/uploads/2017/11/jedox-logo-website.png
